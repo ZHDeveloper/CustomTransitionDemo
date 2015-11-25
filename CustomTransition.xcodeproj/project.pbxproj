@@ -15,6 +15,10 @@
 		5391C11D1C05446000537595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391C11B1C05446000537595 /* LaunchScreen.storyboard */; };
 		5391C1281C05446000537595 /* CustomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C1271C05446000537595 /* CustomTransitionTests.m */; };
 		5391C1331C05446000537595 /* CustomTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C1321C05446000537595 /* CustomTransitionUITests.m */; };
+		5391C1461C0558D600537595 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C1451C0558D600537595 /* SecondViewController.m */; };
+		5391C1491C055B8D00537595 /* PushAnimating.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C1481C055B8D00537595 /* PushAnimating.m */; };
+		5391C14C1C05626300537595 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C14B1C05626300537595 /* OverlayViewController.m */; };
+		5391C14F1C05661000537595 /* PresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391C14E1C05661000537595 /* PresentAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		5391C12E1C05446000537595 /* CustomTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5391C1321C05446000537595 /* CustomTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionUITests.m; sourceTree = "<group>"; };
 		5391C1341C05446000537595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5391C1441C0558D600537595 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5391C1451C0558D600537595 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5391C1471C055B8D00537595 /* PushAnimating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimating.h; sourceTree = "<group>"; };
+		5391C1481C055B8D00537595 /* PushAnimating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimating.m; sourceTree = "<group>"; };
+		5391C14A1C05626300537595 /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		5391C14B1C05626300537595 /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		5391C14D1C05661000537595 /* PresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimation.h; sourceTree = "<group>"; };
+		5391C14E1C05661000537595 /* PresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +117,15 @@
 				5391C1111C05446000537595 /* AppDelegate.m */,
 				5391C1131C05446000537595 /* ViewController.h */,
 				5391C1141C05446000537595 /* ViewController.m */,
+				5391C1471C055B8D00537595 /* PushAnimating.h */,
+				5391C1481C055B8D00537595 /* PushAnimating.m */,
+				5391C14D1C05661000537595 /* PresentAnimation.h */,
+				5391C14E1C05661000537595 /* PresentAnimation.m */,
 				5391C1161C05446000537595 /* Main.storyboard */,
+				5391C1441C0558D600537595 /* SecondViewController.h */,
+				5391C1451C0558D600537595 /* SecondViewController.m */,
+				5391C14A1C05626300537595 /* OverlayViewController.h */,
+				5391C14B1C05626300537595 /* OverlayViewController.m */,
 				5391C1191C05446000537595 /* Assets.xcassets */,
 				5391C11B1C05446000537595 /* LaunchScreen.storyboard */,
 				5391C11E1C05446000537595 /* Info.plist */,
@@ -270,6 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5391C1461C0558D600537595 /* SecondViewController.m in Sources */,
+				5391C14C1C05626300537595 /* OverlayViewController.m in Sources */,
+				5391C14F1C05661000537595 /* PresentAnimation.m in Sources */,
+				5391C1491C055B8D00537595 /* PushAnimating.m in Sources */,
 				5391C1151C05446000537595 /* ViewController.m in Sources */,
 				5391C1121C05446000537595 /* AppDelegate.m in Sources */,
 				5391C10F1C05446000537595 /* main.m in Sources */,
